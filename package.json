@@ -1,0 +1,24 @@
+{
+  "name": "nodeblaze",
+  "version": "1.0.0",
+  "description": "blaze",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Wagner",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.18"
+  }
+}
